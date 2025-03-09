@@ -1,0 +1,10 @@
+<resources>
+    <!-- Tema para el modo día -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Personaliza tu tema de día aquí -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Otros atributos de tema para el modo día -->
+    </style>
+</resources>
