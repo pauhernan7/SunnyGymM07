@@ -1,4 +1,5 @@
 package com.example.sunnygym;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -16,4 +17,8 @@ public interface ApiService {
 
     @DELETE("reservas/{id}")
     Call<Void> deleteReserva(@Path("id") int id);
+
+    // Nuevo endpoint para verificar la conexión con la API
+    @GET("ping")
+    Call<PingResponse> ping();
 }
