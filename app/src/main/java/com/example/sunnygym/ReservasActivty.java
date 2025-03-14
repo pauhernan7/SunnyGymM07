@@ -1,7 +1,11 @@
+// ReservasActivty.java
 package com.example.sunnygym;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,17 +24,23 @@ public class ReservasActivty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reservas_activty);
+        setContentView(R.layout.activity_reservas_activity); // Corrección del nombre
 
-        // Configurar RecyclerView
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Obtener instancia de ApiService
-        apiService = RetrofitClient.getApiService();
+        reservaAdapter = new ReservaAdapter(reservas, id -> eliminarReserva(id));
+        recyclerView.setAdapter(reservaAdapter);
 
-        // Cargar reservas desde la API
+        apiService = RetrofitClient.getApiService();
         cargarReservas();
+
+        Button btnIrPerfil = findViewById(R.id.btnIrPerfil);
+        btnIrPerfil.setOnClickListener(v -> {
+            Intent intent = new Intent(ReservasActivty.this, UserProfileActivity.class);
+            startActivity(intent);
+        });
+
     }
 
     private void cargarReservas() {
@@ -38,12 +48,10 @@ public class ReservasActivty extends AppCompatActivity {
         call.enqueue(new Callback<List<Reserva>>() {
             @Override
             public void onResponse(Call<List<Reserva>> call, Response<List<Reserva>> response) {
-                if (response.isSuccessful()) {
-                    // Actualizar la lista de reservas
-                    reservas = response.body();
-                    // Configurar el Adapter
-                    reservaAdapter = new ReservaAdapter(reservas, id -> eliminarReserva(id));
-                    recyclerView.setAdapter(reservaAdapter);
+                if (response.isSuccessful() && response.body() != null) {
+                    reservas.clear();
+                    reservas.addAll(response.body());
+                    reservaAdapter.notifyDataSetChanged();
                 } else {
                     Log.e("ReservasActivty", "Error al cargar reservas: " + response.message());
                 }
@@ -62,8 +70,13 @@ public class ReservasActivty extends AppCompatActivity {
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()) {
-                    // Recargar la lista después de eliminar
-                    cargarReservas();
+                    for (int i = 0; i < reservas.size(); i++) {
+                        if (reservas.get(i).getId() == id) {
+                            reservas.remove(i);
+                            reservaAdapter.notifyDataSetChanged(); // Corrección aquí
+                            break;
+                        }
+                    }
                 } else {
                     Log.e("ReservasActivty", "Error al eliminar reserva: " + response.message());
                 }

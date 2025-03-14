@@ -4,10 +4,15 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 
+    <!-- Imagen opcional para la actividad -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/body_combat_image" />
+
+    <!-- Nombre de la actividad reservada -->
     <TextView
         android:id="@+id/textActividadName"
         android:layout_width="wrap_content"
@@ -16,14 +21,7 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textFechaReserva"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fecha"
-        android:textSize="14sp" />
-
-
+    <!-- Botón para eliminar la reserva -->
     <Button
         android:id="@+id/btnEliminar"
         android:layout_width="wrap_content"
