@@ -18,7 +18,5 @@ public interface ApiService {
     @DELETE("reservas/{id}")
     Call<Void> deleteReserva(@Path("id") int id);
 
-    // Nuevo endpoint para verificar la conexión con la API
-    @GET("ping")
-    Call<PingResponse> ping();
+
 }

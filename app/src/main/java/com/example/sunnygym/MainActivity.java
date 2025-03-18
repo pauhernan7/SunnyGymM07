@@ -40,32 +40,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Llamar al endpoint /ping al iniciar la aplicación
-        testApiConnection();
+
     }
 
-    private void testApiConnection() {
-        ApiService apiService = RetrofitClient.getApiService();
-        Call<PingResponse> call = apiService.ping();
 
-        call.enqueue(new Callback<PingResponse>() {
-            @Override
-            public void onResponse(Call<PingResponse> call, Response<PingResponse> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    String message = response.body().getMessage();
-                    Log.d(TAG, "Respuesta de la API: " + message);
-                    Toast.makeText(MainActivity.this, "API dice: " + message, Toast.LENGTH_SHORT).show();
-                } else {
-                    Log.e(TAG, "Error en la respuesta: " + response.code());
-                    Toast.makeText(MainActivity.this, "Error al conectar con API", Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            @Override
-            public void onFailure(Call<PingResponse> call, Throwable t) {
-                Log.e(TAG, "Error en la conexión: " + t.getMessage());
-                Toast.makeText(MainActivity.this, "No se pudo conectar a la API", Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 }
