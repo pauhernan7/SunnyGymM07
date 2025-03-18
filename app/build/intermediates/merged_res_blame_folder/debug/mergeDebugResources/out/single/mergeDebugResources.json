@@ -52,6 +52,10 @@
         "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.sunnygym.app-debug-32:/layout_item_reserva.xml.flat",
+        "source": "com.example.sunnygym.app-main-34:/layout/item_reserva.xml"
+    },
+    {
         "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_gym.png.flat",
         "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\gym.png"
     },
@@ -122,10 +126,6 @@
     {
         "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.sunnygym.app-debug-32:/layout_activity_register.xml.flat",
-        "source": "com.example.sunnygym.app-main-34:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_qrgym.png.flat",

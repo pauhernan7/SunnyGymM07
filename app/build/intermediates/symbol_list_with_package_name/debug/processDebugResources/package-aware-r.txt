@@ -3231,6 +3231,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnEditar
 id btnEliminar
 id btnIrPerfil
 id btnSignUp
@@ -3395,7 +3396,6 @@ id lista_activities
 id loginButton
 id logout
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3801,7 +3801,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_guided_activities
 layout activity_item
-layout activity_lista_activities
 layout activity_main
 layout activity_my_profile
 layout activity_qrcode

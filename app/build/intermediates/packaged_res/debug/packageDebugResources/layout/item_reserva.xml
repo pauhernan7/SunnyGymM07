@@ -28,4 +28,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#D40707"
         android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:backgroundTint="#007BFF"/>
+
 </LinearLayout>

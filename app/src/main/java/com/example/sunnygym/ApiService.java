@@ -5,6 +5,7 @@ import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 import java.util.List;
 
@@ -17,6 +18,12 @@ public interface ApiService {
 
     @DELETE("reservas/{id}")
     Call<Void> deleteReserva(@Path("id") int id);
+
+    @PUT("reservas/{id}")
+    Call<Reserva> updateReserva(@Path("id") int id, @Body Reserva reserva);
+
+    @GET("clases_disponibles")
+    Call<List<String>> getClasesDisponibles();
 
 
 }

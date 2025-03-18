@@ -3230,6 +3230,7 @@ int id bounce 0x7f080066
 int id bounceBoth 0x7f080067
 int id bounceEnd 0x7f080068
 int id bounceStart 0x7f080069
+int id btnEditar 0x7f080232
 int id btnEliminar 0x7f08006a
 int id btnIrPerfil 0x7f08022f
 int id btnSignUp 0x7f08006b
@@ -3394,7 +3395,6 @@ int id lista_activities 0x7f080108
 int id loginButton 0x7f080109
 int id logout 0x7f08010a
 int id m3_side_sheet 0x7f08010b
-int id main 0x7f08010c
 int id marquee 0x7f08010d
 int id masked 0x7f08010e
 int id match_constraint 0x7f08010f
@@ -3800,7 +3800,6 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_guided_activities 0x7f0b001c
 int layout activity_item 0x7f0b001d
-int layout activity_lista_activities 0x7f0b001e
 int layout activity_main 0x7f0b001f
 int layout activity_my_profile 0x7f0b0020
 int layout activity_qrcode 0x7f0b0021

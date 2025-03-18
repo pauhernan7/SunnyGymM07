@@ -26,6 +26,7 @@ id ageInput
 id backButton
 id backToLoginButton
 id backToProfileButton
+id btnEditar
 id btnEliminar
 id btnIrPerfil
 id btnSignUp
@@ -45,7 +46,6 @@ id imageView
 id lista_activities
 id loginButton
 id logout
-id main
 id menuButton
 id menuFragment
 id my_profile
@@ -77,7 +77,6 @@ id userName
 id view_clubs
 layout activity_guided_activities
 layout activity_item
-layout activity_lista_activities
 layout activity_main
 layout activity_my_profile
 layout activity_qrcode
