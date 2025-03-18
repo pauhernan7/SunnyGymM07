@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_item_reserva.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\item_reserva.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_my_profile.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_body_pump_image.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\body_pump_image.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_zumba_image.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\zumba_image.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\menu_profile_menu.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_gym.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\gym.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_reservas_activty.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_reservas_activty.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_diagonal.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\diagonal.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_register_succes.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\register_succes.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_lista_activities.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_lista_activities.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_candrago.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\candrago.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_view_clubs.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_view_clubs.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_body_combat_image.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\body_combat_image.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_fragment_toolbar.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\fragment_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-32:/layout_activity_register.xml.flat",
+        "source": "com.example.sunnygym.app-main-34:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_qrgym.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\qrgym.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_reservas_activity.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_reservas_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_qrcode.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_item.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\layout_activity_guided_activities.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\layout\\activity_guided_activities.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_tick.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\tick.png"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-debug-32:\\drawable_meridiana.png.flat",
+        "source": "C:\\Users\\valen\\.gradle\\daemon\\8.7\\com.example.sunnygym.app-main-34:\\drawable\\meridiana.png"
+    }
+]

@@ -1,0 +1,361 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:2:1-57:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\valen\.gradle\caches\transforms-4\635525032213177e0530e054d403abeb\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\ca922a00086106ee63d703075157ada7\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\bb16ce545ce996661894d54c19c7f4ae\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\8e48be41f818852b4eada83557524c67\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\981b1dd993a3ddd5c6dfb3c84a4d13be\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\valen\.gradle\caches\transforms-4\84c743dfa761f84d68214f996ce8a7b5\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\valen\.gradle\caches\transforms-4\ea168540341671c623eddd8cbaf49b2c\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\valen\.gradle\caches\transforms-4\0692fd854a2bd68f51cd934181283890\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bb0201e904b36b2f01ebbe99ec3242fc\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\valen\.gradle\caches\transforms-4\fbc1ad00bd87072570fc1d465d2ee8e7\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\d9fcc0274e3ecac22085323a568ada35\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\valen\.gradle\caches\transforms-4\57fbba7d34dc548a10ac9c596ba867be\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\5ce61183d6e01a8aa3d2470c5ef718ac\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\721add709bf9df683511767945dd57a3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\3e139a295ad8f81f45873bf651838756\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\567c2d4bab80c5e5accc9f4f775c7ae4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\7334147f00934553f05d147ab65cc94d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\dcdc7e1a6db19d516373473266ecabbb\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\c5ffc8c87883bca3cc7711e9732d269d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\309a9960fb678611907683fe37a27a91\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\3f75d0b3ccba19025274d0c2e0edc370\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\e7855f9d02c8e27dea275088f07b2774\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\08602c5567aa79b27b048ab3a906e950\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\79a072f63638ca257113dd483388cd04\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\4fd3b5cd67ad132a14ed68274a4caaa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\659202a71c50ec48a87304c31923e4af\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\d0c2bbf929ff34ba641a95e276de48a8\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\de8384ae6add42206bd989cc354eba56\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\8be5a699323ca39b048292955dce4f78\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\e51468756f635d493474c0ce6c738db8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\fa218d9a2ead92fcfeac81788ac2e190\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\d90c03223706e54d169031fbc87c57d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\658800ebef8fee9ffcc463dbc28e359c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bfde7646cbd2fc9d56fb50964b8c2b17\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\1abc391fc97986548bf16a873ec92902\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\510cca3b0bf2d9757be8ee708b74a0b7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\0d52f1d73686f2deb03143f268bb31c8\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:8:5-55:19
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:8:5-55:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\valen\.gradle\caches\transforms-4\635525032213177e0530e054d403abeb\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\valen\.gradle\caches\transforms-4\635525032213177e0530e054d403abeb\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\ca922a00086106ee63d703075157ada7\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\ca922a00086106ee63d703075157ada7\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\d90c03223706e54d169031fbc87c57d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\d90c03223706e54d169031fbc87c57d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:16:9-51
+	android:dataExtractionRules
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:17:9-44
+activity#com.example.sunnygym.ReservasActivty
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:20:13-44
+activity#com.example.sunnygym.MyProfileActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:23:13-46
+activity#com.example.sunnygym.SupportActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:26:13-44
+activity#com.example.sunnygym.ViewClubsActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:29:13-46
+activity#com.example.sunnygym.GuidedActivitiesActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:32:13-53
+activity#com.example.sunnygym.QRCodeActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:35:13-43
+activity#com.example.sunnygym.UserProfileActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:38:13-48
+activity#com.example.sunnygym.RegistrationSuccessActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:41:13-56
+activity#com.example.sunnygym.RegisterActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:44:13-45
+activity#com.example.sunnygym.MainActivity
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:exported
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:47:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml:52:27-74
+uses-sdk
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\valen\.gradle\caches\transforms-4\635525032213177e0530e054d403abeb\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\valen\.gradle\caches\transforms-4\635525032213177e0530e054d403abeb\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\ca922a00086106ee63d703075157ada7\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\ca922a00086106ee63d703075157ada7\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\bb16ce545ce996661894d54c19c7f4ae\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\bb16ce545ce996661894d54c19c7f4ae\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\8e48be41f818852b4eada83557524c67\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\valen\.gradle\caches\transforms-4\8e48be41f818852b4eada83557524c67\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\981b1dd993a3ddd5c6dfb3c84a4d13be\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\981b1dd993a3ddd5c6dfb3c84a4d13be\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\valen\.gradle\caches\transforms-4\84c743dfa761f84d68214f996ce8a7b5\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\valen\.gradle\caches\transforms-4\84c743dfa761f84d68214f996ce8a7b5\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\valen\.gradle\caches\transforms-4\ea168540341671c623eddd8cbaf49b2c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\valen\.gradle\caches\transforms-4\ea168540341671c623eddd8cbaf49b2c\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\valen\.gradle\caches\transforms-4\0692fd854a2bd68f51cd934181283890\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\valen\.gradle\caches\transforms-4\0692fd854a2bd68f51cd934181283890\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bb0201e904b36b2f01ebbe99ec3242fc\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bb0201e904b36b2f01ebbe99ec3242fc\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\valen\.gradle\caches\transforms-4\fbc1ad00bd87072570fc1d465d2ee8e7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\valen\.gradle\caches\transforms-4\fbc1ad00bd87072570fc1d465d2ee8e7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\d9fcc0274e3ecac22085323a568ada35\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\d9fcc0274e3ecac22085323a568ada35\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\valen\.gradle\caches\transforms-4\57fbba7d34dc548a10ac9c596ba867be\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\valen\.gradle\caches\transforms-4\57fbba7d34dc548a10ac9c596ba867be\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\5ce61183d6e01a8aa3d2470c5ef718ac\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\5ce61183d6e01a8aa3d2470c5ef718ac\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\721add709bf9df683511767945dd57a3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\721add709bf9df683511767945dd57a3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\3e139a295ad8f81f45873bf651838756\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\3e139a295ad8f81f45873bf651838756\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\567c2d4bab80c5e5accc9f4f775c7ae4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\567c2d4bab80c5e5accc9f4f775c7ae4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\7334147f00934553f05d147ab65cc94d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\7334147f00934553f05d147ab65cc94d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\dcdc7e1a6db19d516373473266ecabbb\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\dcdc7e1a6db19d516373473266ecabbb\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\c5ffc8c87883bca3cc7711e9732d269d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\c5ffc8c87883bca3cc7711e9732d269d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\309a9960fb678611907683fe37a27a91\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\309a9960fb678611907683fe37a27a91\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\3f75d0b3ccba19025274d0c2e0edc370\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\3f75d0b3ccba19025274d0c2e0edc370\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\e7855f9d02c8e27dea275088f07b2774\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\e7855f9d02c8e27dea275088f07b2774\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\08602c5567aa79b27b048ab3a906e950\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\08602c5567aa79b27b048ab3a906e950\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\79a072f63638ca257113dd483388cd04\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\79a072f63638ca257113dd483388cd04\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\4fd3b5cd67ad132a14ed68274a4caaa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\4fd3b5cd67ad132a14ed68274a4caaa6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\659202a71c50ec48a87304c31923e4af\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\659202a71c50ec48a87304c31923e4af\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\d0c2bbf929ff34ba641a95e276de48a8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\valen\.gradle\caches\transforms-4\d0c2bbf929ff34ba641a95e276de48a8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\de8384ae6add42206bd989cc354eba56\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\de8384ae6add42206bd989cc354eba56\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\8be5a699323ca39b048292955dce4f78\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\8be5a699323ca39b048292955dce4f78\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\e51468756f635d493474c0ce6c738db8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\e51468756f635d493474c0ce6c738db8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\fa218d9a2ead92fcfeac81788ac2e190\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\fa218d9a2ead92fcfeac81788ac2e190\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\d90c03223706e54d169031fbc87c57d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\d90c03223706e54d169031fbc87c57d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\658800ebef8fee9ffcc463dbc28e359c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\valen\.gradle\caches\transforms-4\658800ebef8fee9ffcc463dbc28e359c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bfde7646cbd2fc9d56fb50964b8c2b17\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\bfde7646cbd2fc9d56fb50964b8c2b17\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\1abc391fc97986548bf16a873ec92902\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\1abc391fc97986548bf16a873ec92902\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\510cca3b0bf2d9757be8ee708b74a0b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\valen\.gradle\caches\transforms-4\510cca3b0bf2d9757be8ee708b74a0b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\0d52f1d73686f2deb03143f268bb31c8\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\0d52f1d73686f2deb03143f268bb31c8\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGym\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\valen\.gradle\caches\transforms-4\6f5a4839b67535b5006ba1017cc8b837\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\transforms-4\1c81ea872b50fa12adc3a50869cc8eb2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\valen\.gradle\caches\transforms-4\b5bf42657925f228bd3760308b4a5048\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.sunnygym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.sunnygym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\valen\.gradle\caches\transforms-4\787009153b4be2ebfa0b9ed6b15ca46d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\transforms-4\1015370e00845dcaaee905dce078eb1a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
