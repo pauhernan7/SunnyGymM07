@@ -1,0 +1,10 @@
+<resources>
+    <!-- Tema para el modo noche -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Personaliza tu tema de noche aquí -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryDark</item>
+        <!-- Otros atributos de tema para el modo noche -->
+    </style>
+</resources>

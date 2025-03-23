@@ -1,0 +1,257 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [androidx.activity:activity-ktx:1.2.4] /home/sma/.gradle/caches/transforms-4/5b3d9602e2da3ca393477a02cf4961c8/transformed/activity-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sma/.gradle/caches/transforms-4/d19e14c4b82c1e7fac4b90f27128ee54/transformed/core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/3229a441a878622e00363221474c258e/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/16163a70aafe4ea828b7314e08f971cd/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/sma/.gradle/caches/transforms-4/1dd565fa76da78cd6d7db84263fc5e1a/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sma/.gradle/caches/transforms-4/abca0cd1ab7ec65499ef56195157f2bb/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/sma/.gradle/caches/transforms-4/a87c40f7b0741481ebbb38055e4806cc/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sma/.gradle/caches/transforms-4/06a1015034a1cc9e7a7f5b3e41179994/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/sma/.gradle/caches/transforms-4/f195cc2fec4616122efece9234ce2578/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sma/.gradle/caches/transforms-4/479f889e107b9e5df291aa090d30e80a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/sma/.gradle/caches/transforms-4/93b3987cb6b10b84a467cef4c11fd200/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/sma/.gradle/caches/transforms-4/1123f250f0f972319b4f446fc6f229e0/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sma/.gradle/caches/transforms-4/fdf42be04448aed2e78b89d2e57ccbb7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] /home/sma/.gradle/caches/transforms-4/ca2bc79efc735f4d5d2c6c9c75afba95/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sma/.gradle/caches/transforms-4/18da219e0447c9a500414885cf897d87/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sma/.gradle/caches/transforms-4/6a5b890fe0a60bfbb70dd3c32767ff42/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sma/.gradle/caches/transforms-4/ce0ff6e0b83aebb0ffbe6e9856d19f8a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sma/.gradle/caches/transforms-4/d4c2b22a8cc9461325f72f2aea730a6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sma/.gradle/caches/transforms-4/8d6d62902669aaf442c1a9f5442a72e7/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sma/.gradle/caches/transforms-4/acf772e427def4c1f6db2c77049dea4a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sma/.gradle/caches/transforms-4/f18b757d9735cb3b0c925be176363e50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sma/.gradle/caches/transforms-4/6c6111b3364feb5f8832cf02d4fc22e4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/sma/.gradle/caches/transforms-4/09268b010a70bd64bc21cf254153ce51/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sma/.gradle/caches/transforms-4/0327cdb3c12e114aba14ce4123cfde23/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sma/.gradle/caches/transforms-4/ea645e5a039d72c326b014007b51c2b8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sma/.gradle/caches/transforms-4/2f88c248cd7a7d8a4fc7753bee676f91/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sma/.gradle/caches/transforms-4/982f45685d172363a4ff44e5ddf91cd9/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sma/.gradle/caches/transforms-4/b26725ed01a30b7b26b4f1f21ad7e25a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sma/.gradle/caches/transforms-4/b46c27bcac7340b2eec4a388bd474f4d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sma/.gradle/caches/transforms-4/8f279f3c30753e37ec5fedf60cdcc5b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sma/.gradle/caches/transforms-4/0c41160d67cb335af50eebec206a7eef/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sma/.gradle/caches/transforms-4/15f7b7709ab0888e1cc9a917b56cd011/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sma/.gradle/caches/transforms-4/aea52997c1bca9e6c3c9881f8386e448/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sma/.gradle/caches/transforms-4/e6a716756845a8e970305e22429a8a40/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sma/.gradle/caches/transforms-4/c8ed5caa4ee6be98639d2c845712805c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sma/.gradle/caches/transforms-4/673c64b3e049e996d525cb0af6b1386b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sma/.gradle/caches/transforms-4/787e913bc9dff9d7320743085f355f16/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sma/.gradle/caches/transforms-4/687c55245da984d945b2db723a0981a2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:8:5-55:19
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:8:5-55:19
+MERGED from [com.google.android.material:material:1.4.0] /home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sma/.gradle/caches/transforms-4/abca0cd1ab7ec65499ef56195157f2bb/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sma/.gradle/caches/transforms-4/abca0cd1ab7ec65499ef56195157f2bb/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sma/.gradle/caches/transforms-4/b46c27bcac7340b2eec4a388bd474f4d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sma/.gradle/caches/transforms-4/b46c27bcac7340b2eec4a388bd474f4d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:16:9-51
+	android:dataExtractionRules
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:17:9-44
+activity#com.example.sunnygym.ReservasActivty
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:20:13-44
+activity#com.example.sunnygym.MyProfileActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:23:13-46
+activity#com.example.sunnygym.SupportActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:26:13-44
+activity#com.example.sunnygym.ViewClubsActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:29:13-46
+activity#com.example.sunnygym.GuidedActivitiesActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:32:13-53
+activity#com.example.sunnygym.QRCodeActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:35:13-43
+activity#com.example.sunnygym.UserProfileActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:38:13-48
+activity#com.example.sunnygym.RegistrationSuccessActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:41:13-56
+activity#com.example.sunnygym.RegisterActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:44:13-45
+activity#com.example.sunnygym.MainActivity
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:46:9-54:20
+	android:exported
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:47:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml:52:27-74
+uses-sdk
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity-ktx:1.2.4] /home/sma/.gradle/caches/transforms-4/5b3d9602e2da3ca393477a02cf4961c8/transformed/activity-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.4] /home/sma/.gradle/caches/transforms-4/5b3d9602e2da3ca393477a02cf4961c8/transformed/activity-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sma/.gradle/caches/transforms-4/d19e14c4b82c1e7fac4b90f27128ee54/transformed/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/sma/.gradle/caches/transforms-4/d19e14c4b82c1e7fac4b90f27128ee54/transformed/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/3229a441a878622e00363221474c258e/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/3229a441a878622e00363221474c258e/transformed/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/16163a70aafe4ea828b7314e08f971cd/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/sma/.gradle/caches/transforms-4/16163a70aafe4ea828b7314e08f971cd/transformed/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/sma/.gradle/caches/transforms-4/1dd565fa76da78cd6d7db84263fc5e1a/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/sma/.gradle/caches/transforms-4/1dd565fa76da78cd6d7db84263fc5e1a/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sma/.gradle/caches/transforms-4/abca0cd1ab7ec65499ef56195157f2bb/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/sma/.gradle/caches/transforms-4/abca0cd1ab7ec65499ef56195157f2bb/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/sma/.gradle/caches/transforms-4/a87c40f7b0741481ebbb38055e4806cc/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/sma/.gradle/caches/transforms-4/a87c40f7b0741481ebbb38055e4806cc/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sma/.gradle/caches/transforms-4/06a1015034a1cc9e7a7f5b3e41179994/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sma/.gradle/caches/transforms-4/06a1015034a1cc9e7a7f5b3e41179994/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/sma/.gradle/caches/transforms-4/f195cc2fec4616122efece9234ce2578/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/sma/.gradle/caches/transforms-4/f195cc2fec4616122efece9234ce2578/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sma/.gradle/caches/transforms-4/479f889e107b9e5df291aa090d30e80a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sma/.gradle/caches/transforms-4/479f889e107b9e5df291aa090d30e80a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /home/sma/.gradle/caches/transforms-4/93b3987cb6b10b84a467cef4c11fd200/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/sma/.gradle/caches/transforms-4/93b3987cb6b10b84a467cef4c11fd200/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/sma/.gradle/caches/transforms-4/1123f250f0f972319b4f446fc6f229e0/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/sma/.gradle/caches/transforms-4/1123f250f0f972319b4f446fc6f229e0/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sma/.gradle/caches/transforms-4/fdf42be04448aed2e78b89d2e57ccbb7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sma/.gradle/caches/transforms-4/fdf42be04448aed2e78b89d2e57ccbb7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] /home/sma/.gradle/caches/transforms-4/ca2bc79efc735f4d5d2c6c9c75afba95/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/sma/.gradle/caches/transforms-4/ca2bc79efc735f4d5d2c6c9c75afba95/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sma/.gradle/caches/transforms-4/18da219e0447c9a500414885cf897d87/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/sma/.gradle/caches/transforms-4/18da219e0447c9a500414885cf897d87/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sma/.gradle/caches/transforms-4/6a5b890fe0a60bfbb70dd3c32767ff42/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/sma/.gradle/caches/transforms-4/6a5b890fe0a60bfbb70dd3c32767ff42/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sma/.gradle/caches/transforms-4/ce0ff6e0b83aebb0ffbe6e9856d19f8a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sma/.gradle/caches/transforms-4/ce0ff6e0b83aebb0ffbe6e9856d19f8a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sma/.gradle/caches/transforms-4/d4c2b22a8cc9461325f72f2aea730a6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sma/.gradle/caches/transforms-4/d4c2b22a8cc9461325f72f2aea730a6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sma/.gradle/caches/transforms-4/8d6d62902669aaf442c1a9f5442a72e7/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sma/.gradle/caches/transforms-4/8d6d62902669aaf442c1a9f5442a72e7/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sma/.gradle/caches/transforms-4/acf772e427def4c1f6db2c77049dea4a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sma/.gradle/caches/transforms-4/acf772e427def4c1f6db2c77049dea4a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sma/.gradle/caches/transforms-4/f18b757d9735cb3b0c925be176363e50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sma/.gradle/caches/transforms-4/f18b757d9735cb3b0c925be176363e50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sma/.gradle/caches/transforms-4/6c6111b3364feb5f8832cf02d4fc22e4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sma/.gradle/caches/transforms-4/6c6111b3364feb5f8832cf02d4fc22e4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sma/.gradle/caches/transforms-4/09268b010a70bd64bc21cf254153ce51/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sma/.gradle/caches/transforms-4/09268b010a70bd64bc21cf254153ce51/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sma/.gradle/caches/transforms-4/0327cdb3c12e114aba14ce4123cfde23/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sma/.gradle/caches/transforms-4/0327cdb3c12e114aba14ce4123cfde23/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sma/.gradle/caches/transforms-4/ea645e5a039d72c326b014007b51c2b8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sma/.gradle/caches/transforms-4/ea645e5a039d72c326b014007b51c2b8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/sma/.gradle/caches/transforms-4/76085595e8ab65523160eb5566dad4a4/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sma/.gradle/caches/transforms-4/2f88c248cd7a7d8a4fc7753bee676f91/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/sma/.gradle/caches/transforms-4/2f88c248cd7a7d8a4fc7753bee676f91/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sma/.gradle/caches/transforms-4/982f45685d172363a4ff44e5ddf91cd9/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/sma/.gradle/caches/transforms-4/982f45685d172363a4ff44e5ddf91cd9/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sma/.gradle/caches/transforms-4/b26725ed01a30b7b26b4f1f21ad7e25a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sma/.gradle/caches/transforms-4/b26725ed01a30b7b26b4f1f21ad7e25a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sma/.gradle/caches/transforms-4/b46c27bcac7340b2eec4a388bd474f4d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sma/.gradle/caches/transforms-4/b46c27bcac7340b2eec4a388bd474f4d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sma/.gradle/caches/transforms-4/8f279f3c30753e37ec5fedf60cdcc5b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sma/.gradle/caches/transforms-4/8f279f3c30753e37ec5fedf60cdcc5b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sma/.gradle/caches/transforms-4/0c41160d67cb335af50eebec206a7eef/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sma/.gradle/caches/transforms-4/0c41160d67cb335af50eebec206a7eef/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sma/.gradle/caches/transforms-4/15f7b7709ab0888e1cc9a917b56cd011/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sma/.gradle/caches/transforms-4/15f7b7709ab0888e1cc9a917b56cd011/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sma/.gradle/caches/transforms-4/aea52997c1bca9e6c3c9881f8386e448/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sma/.gradle/caches/transforms-4/aea52997c1bca9e6c3c9881f8386e448/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sma/.gradle/caches/transforms-4/e6a716756845a8e970305e22429a8a40/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sma/.gradle/caches/transforms-4/e6a716756845a8e970305e22429a8a40/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sma/.gradle/caches/transforms-4/c8ed5caa4ee6be98639d2c845712805c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sma/.gradle/caches/transforms-4/c8ed5caa4ee6be98639d2c845712805c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sma/.gradle/caches/transforms-4/673c64b3e049e996d525cb0af6b1386b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sma/.gradle/caches/transforms-4/673c64b3e049e996d525cb0af6b1386b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sma/.gradle/caches/transforms-4/787e913bc9dff9d7320743085f355f16/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sma/.gradle/caches/transforms-4/787e913bc9dff9d7320743085f355f16/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sma/.gradle/caches/transforms-4/687c55245da984d945b2db723a0981a2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sma/.gradle/caches/transforms-4/687c55245da984d945b2db723a0981a2/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sma/AndroidStudioProjects/SunnyGymM07/app/src/main/AndroidManifest.xml

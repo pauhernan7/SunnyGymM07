@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_guided_activities.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_guided_activities.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_reservas_activity.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_reservas_activity.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_tick.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/tick.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_zumba_image.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/zumba_image.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_club_item.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/club_item.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/menu_profile_menu.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/menu/profile_menu.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_qrcode.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_qrcode.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_support.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_support.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_profile.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/xml_backup_rules.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_my_profile.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_my_profile.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_cycling.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/cycling.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_item_reserva.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/item_reserva.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_gym.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/gym.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_body_pump_image.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/body_pump_image.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_fragment_toolbar.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/fragment_toolbar.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_view_clubs.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_view_clubs.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_body_combat_image.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/body_combat_image.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_item.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_item.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_candrago.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/candrago.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_register_succes.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/register_succes.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_register.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_diagonal.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/diagonal.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_qrgym.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/qrgym.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_user_profile.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_menu.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/menu.png"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sunnygym.app-main-22:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.sunnygym.app-debug-20:/drawable_meridiana.png.flat",
+        "source": "com.example.sunnygym.app-main-22:/drawable/meridiana.png"
+    }
+]
