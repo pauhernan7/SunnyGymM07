@@ -1,6 +1,5 @@
 package com.example.sunnygym
 
-
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
@@ -10,141 +9,131 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import kotlinx.coroutines.launch
 
 class ReservasActivty : AppCompatActivity() {
-    private var recyclerView: RecyclerView? = null
-    private var reservaAdapter: ReservaAdapter? = null
-    private val reservas: MutableList<Reserva> = ArrayList()
-    private var apiService: ApiService? = null
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var reservaAdapter: ReservaAdapter
+    private val reservas = mutableListOf<Reserva>()
+    private lateinit var apiService: ApiService
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reservas_activity)
 
         recyclerView = findViewById(R.id.recyclerView)
-        recyclerView?.layoutManager = LinearLayoutManager(this)
+        recyclerView.layoutManager = LinearLayoutManager(this)
 
         apiService = RetrofitClient.getApiService()
 
-        // Pasamos las funciones con el tipo correcto
         reservaAdapter = ReservaAdapter(
             reservas,
-            object : ReservaAdapter.OnEliminarClickListener {  // Usamos un objeto anónimo para OnEliminarClickListener
+            object : ReservaAdapter.OnEliminarClickListener {
                 override fun onEliminarClick(id: Int) {
                     eliminarReserva(id)
                 }
             },
-            object : ReservaAdapter.OnEditarClickListener {  // Lo mismo para OnEditarClickListener
+            object : ReservaAdapter.OnEditarClickListener {
                 override fun onEditarClick(id: Int) {
                     editarReserva(id)
                 }
             }
         )
-        recyclerView?.adapter = reservaAdapter
+        recyclerView.adapter = reservaAdapter
 
         cargarReservas()
 
         val btnIrPerfil = findViewById<Button>(R.id.btnIrPerfil)
-        btnIrPerfil.setOnClickListener { v: View? ->
-            val intent = Intent(this@ReservasActivty, UserProfileActivity::class.java)
-            startActivity(intent)
+        btnIrPerfil.setOnClickListener {
+            startActivity(Intent(this, UserProfileActivity::class.java))
         }
     }
 
     private fun cargarReservas() {
-        apiService?.getReservas()?.enqueue(object : Callback<List<Reserva>> {
-            override fun onResponse(
-                call: Call<List<Reserva>>,
-                response: Response<List<Reserva>>
-            ) {
-                if (response.isSuccessful && response.body() != null) {
-                    reservas.clear()
-                    reservas.addAll(response.body()!!)
-                    reservaAdapter?.notifyDataSetChanged()
+        lifecycleScope.launch {
+            try {
+                val response = apiService.getReservas()
+                if (response.isSuccessful) {
+                    response.body()?.let {
+                        reservas.clear()
+                        reservas.addAll(it)
+                        reservaAdapter.notifyDataSetChanged()
+                    }
                 } else {
-                    Log.e("ReservasActivty", "Error al cargar reservas: " + response.message())
+                    Log.e("ReservasActivty", "Error al cargar reservas: ${response.message()}")
                 }
+            } catch (e: Exception) {
+                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
             }
-
-            override fun onFailure(call: Call<List<Reserva>>, t: Throwable) {
-                Log.e("ReservasActivty", "Error en la conexión: " + t.message)
-            }
-        })
+        }
     }
 
-    // Esta función eliminarReserva ahora implementa correctamente el tipo de la interfaz.
     private fun eliminarReserva(id: Int) {
-        apiService?.deleteReserva(id)?.enqueue(object : Callback<Void?> {
-            override fun onResponse(call: Call<Void?>, response: Response<Void?>) {
+        lifecycleScope.launch {
+            try {
+                val response = apiService.deleteReserva(id)
                 if (response.isSuccessful) {
-                    reservas.removeIf { r: Reserva -> r.id == id }
-                    reservaAdapter?.notifyDataSetChanged()
+                    reservas.removeIf { it.id == id }
+                    reservaAdapter.notifyDataSetChanged()
                 } else {
-                    Log.e("ReservasActivty", "Error al eliminar reserva: " + response.message())
+                    Log.e("ReservasActivty", "Error al eliminar reserva: ${response.message()}")
                 }
+            } catch (e: Exception) {
+                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
             }
-
-            override fun onFailure(call: Call<Void?>, t: Throwable) {
-                Log.e("ReservasActivty", "Error en la conexión: " + t.message)
-            }
-        })
+        }
     }
 
     private fun editarReserva(id: Int) {
-        apiService?.getClasesDisponibles()?.enqueue(object : Callback<List<String>> {
-            override fun onResponse(
-                call: Call<List<String>>,
-                response: Response<List<String>>
-            ) {
-                if (response.isSuccessful && response.body() != null) {
-                    mostrarDialogoEditar(id, response.body())
+        lifecycleScope.launch {
+            try {
+                val response = apiService.getClasesDisponibles()
+                if (response.isSuccessful) {
+                    response.body()?.let {
+                        mostrarDialogoEditar(id, it)
+                    }
                 } else {
                     Log.e("ReservasActivty", "Error al obtener clases disponibles")
                 }
+            } catch (e: Exception) {
+                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
             }
-
-            override fun onFailure(call: Call<List<String>>, t: Throwable) {
-                Log.e("ReservasActivty", "Error en la conexión: " + t.message)
-            }
-        })
+        }
     }
 
-    private fun mostrarDialogoEditar(reservaId: Int, clasesDisponibles: List<String>?) {
+    private fun mostrarDialogoEditar(reservaId: Int, clasesDisponibles: List<String>) {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Selecciona una nueva clase")
-        val opciones = clasesDisponibles!!.toTypedArray()
+        val opciones = clasesDisponibles.toTypedArray()
 
-        builder.setItems(opciones) { dialog: DialogInterface?, which: Int ->
+        builder.setItems(opciones) { _, which ->
             actualizarReserva(reservaId, opciones[which])
         }
-        builder.setNegativeButton("Cancelar") { dialog: DialogInterface, which: Int -> dialog.dismiss() }
+        builder.setNegativeButton("Cancelar") { dialog, _ -> dialog.dismiss() }
         builder.show()
     }
 
-    private fun actualizarReserva(id: Int, nuevaClase: String?) {
-        val nuevaReserva = Reserva()
-        nuevaReserva.id = id
-        nuevaReserva.actividadName = nuevaClase
+    private fun actualizarReserva(id: Int, nuevaClase: String) {
+        lifecycleScope.launch {
+            try {
+                val nuevaReserva = Reserva().apply {
+                    this.id = id
+                    actividadName = nuevaClase
+                }
 
-        apiService?.updateReserva(id, nuevaReserva)?.enqueue(object : Callback<Reserva?> {
-            override fun onResponse(call: Call<Reserva?>, response: Response<Reserva?>) {
+                val response = apiService.updateReserva(id, nuevaReserva)
                 if (response.isSuccessful) {
                     cargarReservas()
-                    Toast.makeText(this@ReservasActivty, "Reserva actualizada", Toast.LENGTH_SHORT)
-                        .show()
+                    Toast.makeText(this@ReservasActivty, "Reserva actualizada", Toast.LENGTH_SHORT).show()
                 } else {
-                    Log.e("ReservasActivty", "Error al actualizar reserva: " + response.message())
+                    Log.e("ReservasActivty", "Error al actualizar reserva: ${response.message()}")
                 }
+            } catch (e: Exception) {
+                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
             }
-
-            override fun onFailure(call: Call<Reserva?>, t: Throwable) {
-                Log.e("ReservasActivty", "Error en la conexión: " + t.message)
-            }
-        })
+        }
     }
 }

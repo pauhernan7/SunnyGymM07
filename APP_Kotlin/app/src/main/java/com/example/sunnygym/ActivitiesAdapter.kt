@@ -10,10 +10,10 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import kotlinx.coroutines.launch
 
 class ActivitiesAdapter(
     private val context: Context,
@@ -37,24 +37,24 @@ class ActivitiesAdapter(
         )
 
         holder.btnSignUp.setOnClickListener {
-            val nuevaReserva = Reserva(actividadName = activity.name)
+            if (context is AppCompatActivity) {
+                context.lifecycleScope.launch {
+                    try {
+                        val nuevaReserva = Reserva(actividadName = activity.name)
+                        val response = apiService.addReserva(nuevaReserva)
 
-            apiService.addReserva(nuevaReserva).enqueue(object : Callback<Reserva> {
-                override fun onResponse(call: Call<Reserva>, response: Response<Reserva>) {
-
-                    if (response.isSuccessful) {
-                        Toast.makeText(context, "Reserva creada: ${activity.name}", Toast.LENGTH_SHORT).show()
-                    } else {
-                        Log.e("ActivitiesAdapter", "Error al crear reserva: ${response.code()} - ${response.message()}")
-                        Toast.makeText(context, "Error: Actividad No disponible", Toast.LENGTH_SHORT).show()
+                        if (response.isSuccessful) {
+                            Toast.makeText(context, "Reserva creada: ${activity.name}", Toast.LENGTH_SHORT).show()
+                        } else {
+                            Log.e("ActivitiesAdapter", "Error al crear reserva: ${response.code()} - ${response.message()}")
+                            Toast.makeText(context, "Error: Actividad No disponible", Toast.LENGTH_SHORT).show()
+                        }
+                    } catch (e: Exception) {
+                        Log.e("ActivitiesAdapter", "Fallo en la conexión: ${e.message}")
+                        Toast.makeText(context, "Error de conexión", Toast.LENGTH_SHORT).show()
                     }
                 }
-
-                override fun onFailure(call: Call<Reserva>, t: Throwable) {
-                    Log.e("ActivitiesAdapter", "Fallo en la conexión: ${t.message}")
-                    Toast.makeText(context, "Error de conexión", Toast.LENGTH_SHORT).show()
-                }
-            })
+            }
         }
     }
 

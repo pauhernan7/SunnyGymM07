@@ -1,22 +1,21 @@
 package com.example.sunnygym
 
-
-import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.*
 
 interface ApiService {
     @GET("reservas")
-    fun getReservas(): Call<List<Reserva>>
+    suspend fun getReservas(): Response<List<Reserva>>
 
     @POST("reservas")
-    fun addReserva(@Body reserva: Reserva): Call<Reserva>
+    suspend fun addReserva(@Body reserva: Reserva): Response<Reserva>
 
     @DELETE("reservas/{id}")
-    fun deleteReserva(@Path("id") id: Int): Call<Void>
+    suspend fun deleteReserva(@Path("id") id: Int): Response<Void>
 
     @PUT("reservas/{id}")
-    fun updateReserva(@Path("id") id: Int, @Body reserva: Reserva): Call<Reserva>
+    suspend fun updateReserva(@Path("id") id: Int, @Body reserva: Reserva): Response<Reserva>
 
     @GET("clases_disponibles")
-    fun getClasesDisponibles(): Call<List<String>>
+    suspend fun getClasesDisponibles(): Response<List<String>>
 }
