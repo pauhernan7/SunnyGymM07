@@ -43,7 +43,7 @@ class ReservaAdapter(
 
         fun actualizarImagen(actividad: String?) {
             when (actividad?.lowercase()) {
-                "zumba" -> imageView.setImageResource(R.drawable.zumba_image)
+                "Zumba" -> imageView.setImageResource(R.drawable.zumba_image)
                 "body combat" -> imageView.setImageResource(R.drawable.body_combat_image)
                 "body pump" -> imageView.setImageResource(R.drawable.body_pump_image)
             }

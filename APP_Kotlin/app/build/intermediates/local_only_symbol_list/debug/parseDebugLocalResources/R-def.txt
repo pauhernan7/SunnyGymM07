@@ -29,6 +29,8 @@ id backToLoginButton
 id backToProfileButton
 id btnEditar
 id btnEliminar
+id btnEstadisticas
+id btnInici
 id btnIrPerfil
 id btnSignUp
 id disponibilitat
@@ -53,6 +55,7 @@ id my_profile
 id nameInput
 id passwordInput
 id phoneInput
+id pieChart
 id problemField
 id profileImage
 id qrCodeImage
@@ -83,6 +86,7 @@ layout activity_my_profile
 layout activity_qrcode
 layout activity_register
 layout activity_reservas_activity
+layout activity_stats
 layout activity_support
 layout activity_user_profile
 layout activity_view_clubs

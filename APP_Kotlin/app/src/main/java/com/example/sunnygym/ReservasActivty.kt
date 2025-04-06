@@ -4,7 +4,6 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -24,16 +23,24 @@ class ReservasActivty : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reservas_activity)
 
+        initViews()
+        setupRecyclerView()
+        cargarReservas()
+        setupButtons()
+    }
+
+    private fun initViews() {
         recyclerView = findViewById(R.id.recyclerView)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-
         apiService = RetrofitClient.getApiService()
+    }
 
+    private fun setupRecyclerView() {
+        recyclerView.layoutManager = LinearLayoutManager(this)
         reservaAdapter = ReservaAdapter(
             reservas,
             object : ReservaAdapter.OnEliminarClickListener {
                 override fun onEliminarClick(id: Int) {
-                    eliminarReserva(id)
+                    mostrarConfirmacionEliminar(id)
                 }
             },
             object : ReservaAdapter.OnEditarClickListener {
@@ -43,12 +50,21 @@ class ReservasActivty : AppCompatActivity() {
             }
         )
         recyclerView.adapter = reservaAdapter
+    }
 
-        cargarReservas()
-
-        val btnIrPerfil = findViewById<Button>(R.id.btnIrPerfil)
-        btnIrPerfil.setOnClickListener {
+    private fun setupButtons() {
+        findViewById<Button>(R.id.btnIrPerfil).setOnClickListener {
             startActivity(Intent(this, UserProfileActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnEstadisticas).setOnClickListener {
+            if (reservas.isNotEmpty()) {
+                startActivity(Intent(this, StatsActivity::class.java).apply {
+                    putExtra("reservas", ArrayList(reservas))
+                })
+            } else {
+                Toast.makeText(this, "No hay reservas para mostrar", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
@@ -63,12 +79,21 @@ class ReservasActivty : AppCompatActivity() {
                         reservaAdapter.notifyDataSetChanged()
                     }
                 } else {
-                    Log.e("ReservasActivty", "Error al cargar reservas: ${response.message()}")
+                    mostrarError("Error al cargar reservas: ${response.message()}")
                 }
             } catch (e: Exception) {
-                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
+                mostrarError("Error en la conexión: ${e.message}")
             }
         }
+    }
+
+    private fun mostrarConfirmacionEliminar(id: Int) {
+        AlertDialog.Builder(this)
+            .setTitle("Confirmar eliminación")
+            .setMessage("¿Estás seguro de que quieres eliminar esta reserva?")
+            .setPositiveButton("Eliminar") { _, _ -> eliminarReserva(id) }
+            .setNegativeButton("Cancelar", null)
+            .show()
     }
 
     private fun eliminarReserva(id: Int) {
@@ -78,11 +103,12 @@ class ReservasActivty : AppCompatActivity() {
                 if (response.isSuccessful) {
                     reservas.removeIf { it.id == id }
                     reservaAdapter.notifyDataSetChanged()
+                    Toast.makeText(this@ReservasActivty, "Reserva eliminada", Toast.LENGTH_SHORT).show()
                 } else {
-                    Log.e("ReservasActivty", "Error al eliminar reserva: ${response.message()}")
+                    mostrarError("Error al eliminar reserva: ${response.message()}")
                 }
             } catch (e: Exception) {
-                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
+                mostrarError("Error en la conexión: ${e.message}")
             }
         }
     }
@@ -96,44 +122,42 @@ class ReservasActivty : AppCompatActivity() {
                         mostrarDialogoEditar(id, it)
                     }
                 } else {
-                    Log.e("ReservasActivty", "Error al obtener clases disponibles")
+                    mostrarError("Error al obtener clases disponibles")
                 }
             } catch (e: Exception) {
-                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
+                mostrarError("Error en la conexión: ${e.message}")
             }
         }
     }
 
     private fun mostrarDialogoEditar(reservaId: Int, clasesDisponibles: List<String>) {
-        val builder = AlertDialog.Builder(this)
-        builder.setTitle("Selecciona una nueva clase")
-        val opciones = clasesDisponibles.toTypedArray()
-
-        builder.setItems(opciones) { _, which ->
-            actualizarReserva(reservaId, opciones[which])
-        }
-        builder.setNegativeButton("Cancelar") { dialog, _ -> dialog.dismiss() }
-        builder.show()
+        AlertDialog.Builder(this)
+            .setTitle("Selecciona una nueva clase")
+            .setItems(clasesDisponibles.toTypedArray()) { _, which ->
+                actualizarReserva(reservaId, clasesDisponibles[which])
+            }
+            .setNegativeButton("Cancelar", null)
+            .show()
     }
 
     private fun actualizarReserva(id: Int, nuevaClase: String) {
         lifecycleScope.launch {
             try {
-                val nuevaReserva = Reserva().apply {
-                    this.id = id
-                    actividadName = nuevaClase
-                }
-
-                val response = apiService.updateReserva(id, nuevaReserva)
+                val response = apiService.updateReserva(id, Reserva(id = id, actividadName = nuevaClase))
                 if (response.isSuccessful) {
                     cargarReservas()
                     Toast.makeText(this@ReservasActivty, "Reserva actualizada", Toast.LENGTH_SHORT).show()
                 } else {
-                    Log.e("ReservasActivty", "Error al actualizar reserva: ${response.message()}")
+                    mostrarError("Error al actualizar reserva: ${response.message()}")
                 }
             } catch (e: Exception) {
-                Log.e("ReservasActivty", "Error en la conexión: ${e.message}")
+                mostrarError("Error en la conexión: ${e.message}")
             }
         }
+    }
+
+    private fun mostrarError(mensaje: String) {
+        Log.e("ReservasActivty", mensaje)
+        Toast.makeText(this, "Ocurrió un error. Intenta nuevamente.", Toast.LENGTH_SHORT).show()
     }
 }

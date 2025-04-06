@@ -14,10 +14,10 @@ com.example.sunnygym.app-cardview-1.0.0-12 C:\Users\valen\.gradle\caches\transfo
 com.example.sunnygym.app-coordinatorlayout-1.1.0-13 C:\Users\valen\.gradle\caches\transforms-4\ce0ff6e0b83aebb0ffbe6e9856d19f8a\transformed\coordinatorlayout-1.1.0\res
 com.example.sunnygym.app-core-ktx-1.6.0-14 C:\Users\valen\.gradle\caches\transforms-4\d19e14c4b82c1e7fac4b90f27128ee54\transformed\core-ktx-1.6.0\res
 com.example.sunnygym.app-recyclerview-1.2.1-15 C:\Users\valen\.gradle\caches\transforms-4\f195cc2fec4616122efece9234ce2578\transformed\recyclerview-1.2.1\res
-com.example.sunnygym.app-pngs-16 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\build\generated\res\pngs\debug
-com.example.sunnygym.app-resValues-17 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\build\generated\res\resValues\debug
-com.example.sunnygym.app-packageDebugResources-18 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.sunnygym.app-packageDebugResources-19 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.sunnygym.app-debug-20 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.sunnygym.app-debug-21 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\src\debug\res
-com.example.sunnygym.app-main-22 C:\Users\valen\Desktop\itic\2DAM\M7\SunnyGymM07\APP_Kotlin\app\src\main\res
+com.example.sunnygym.app-pngs-16 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\build\generated\res\pngs\debug
+com.example.sunnygym.app-resValues-17 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\build\generated\res\resValues\debug
+com.example.sunnygym.app-packageDebugResources-18 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.sunnygym.app-packageDebugResources-19 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.sunnygym.app-debug-20 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.sunnygym.app-debug-21 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\src\debug\res
+com.example.sunnygym.app-main-22 C:\Users\valen\Desktop\itic\2DAM\M7\repositorioNuevo\SunnyGymM07\APP_Kotlin\app\src\main\res

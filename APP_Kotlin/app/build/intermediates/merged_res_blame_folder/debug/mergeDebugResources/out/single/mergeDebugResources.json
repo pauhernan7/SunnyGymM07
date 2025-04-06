@@ -152,6 +152,10 @@
         "source": "com.example.sunnygym.app-main-22:/drawable/qrgym.png"
     },
     {
+        "merged": "com.example.sunnygym.app-debug-20:/layout_activity_stats.xml.flat",
+        "source": "com.example.sunnygym.app-main-22:/layout/activity_stats.xml"
+    },
+    {
         "merged": "com.example.sunnygym.app-debug-20:/layout_activity_user_profile.xml.flat",
         "source": "com.example.sunnygym.app-main-22:/layout/activity_user_profile.xml"
     },

@@ -5,21 +5,41 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Botón para ir al perfil -->
-    <Button
-        android:id="@+id/btnIrPerfil"
-        android:layout_width="wrap_content"
+    <!-- Contenedor horizontal para los botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Mi Perfil"
-        android:layout_gravity="center"
-        android:padding="8dp" />
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
 
+        <!-- Botón para ir al perfil -->
+        <Button
+            android:id="@+id/btnIrPerfil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mi Perfil"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Nuevo botón para estadísticas -->
+        <Button
+            android:id="@+id/btnEstadisticas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Estadísticas"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
 
     <!-- RecyclerView para mostrar las reservas -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:layout_marginTop="10dp" />
 
 </LinearLayout>

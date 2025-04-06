@@ -1850,6 +1850,8 @@ id bottom
 id bounce
 id btnEditar
 id btnEliminar
+id btnEstadisticas
+id btnInici
 id btnIrPerfil
 id btnSignUp
 id buttonPanel
@@ -2072,6 +2074,7 @@ id pathRelative
 id peekHeight
 id percent
 id phoneInput
+id pieChart
 id pin
 id position
 id postLayout
@@ -2305,6 +2308,7 @@ layout activity_my_profile
 layout activity_qrcode
 layout activity_register
 layout activity_reservas_activity
+layout activity_stats
 layout activity_support
 layout activity_user_profile
 layout activity_view_clubs
