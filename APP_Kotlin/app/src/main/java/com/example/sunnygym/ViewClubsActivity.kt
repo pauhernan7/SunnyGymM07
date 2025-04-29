@@ -7,6 +7,7 @@ import android.widget.PopupMenu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sunnygym.Register.MainActivity
 
 class ViewClubsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

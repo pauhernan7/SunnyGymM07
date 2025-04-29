@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.sunnygym.Register.MainActivity
 
 class SupportActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

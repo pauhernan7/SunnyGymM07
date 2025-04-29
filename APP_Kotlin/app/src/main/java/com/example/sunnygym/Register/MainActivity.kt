@@ -1,9 +1,11 @@
-package com.example.sunnygym
+package com.example.sunnygym.Register
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.sunnygym.R
+import com.example.sunnygym.UserProfileActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

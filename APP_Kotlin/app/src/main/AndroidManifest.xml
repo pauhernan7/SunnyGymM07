@@ -38,16 +38,16 @@
             android:name=".UserProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistrationSuccessActivity"
+            android:name=".Register.RegistrationSuccessActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Register.RegisterActivity"
             android:exported="false" />
         <activity
             android:name="StatsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Register.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
