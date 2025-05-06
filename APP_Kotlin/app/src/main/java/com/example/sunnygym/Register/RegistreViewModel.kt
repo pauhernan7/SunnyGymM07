@@ -16,6 +16,13 @@ class RegistreViewModel: ViewModel() {
     private val _errorNomUsuari=MutableLiveData<String>("")
     val errorNomUsuari: LiveData<String> = _errorNomUsuari
 
+    private val _errorEmail=MutableLiveData<String>("")
+    val errorEmail: LiveData<String> = _errorEmail
+
+    private val _errorContrassenya=MutableLiveData<String>("")
+    val errorContrassenya: LiveData<String> = _errorContrassenya
+
+
 
     fun actualitzanomUsuari(nomusuari: String) {
         _nomUsuari = nomusuari
@@ -23,7 +30,7 @@ class RegistreViewModel: ViewModel() {
 
 
 
-    public fun comprova_nomusuari() {
+    fun comprova_nomusuari() {
 
         if (_nomUsuari.isEmpty()) {
             _errorNomUsuari.value = "El nom d'usuari és obligatori"
@@ -31,15 +38,29 @@ class RegistreViewModel: ViewModel() {
             _errorNomUsuari.value = ""
         }
     }
-    fun actualitzaemail(email:String){
-        TODO("Actualitza el livedata i fes les comprovacions.")
+    fun  comprova_email(){
+        if (_email.isEmpty()) {
+            _errorEmail.value = "El email és obligatori"
+        }else{
+            _errorEmail.value = ""
+        }
     }
+    fun comprova_contrassenya(){
+        if (_contrassenya.isEmpty()){
+        _errorContrassenya  .value =
+        }
+    }
+
+    fun actualitzaemail(email:String){
+        _email=email
+    }
+
 
     //Comprovació genérica. Comprova tots els camps.
     fun comprovadadesusuari() {
         comprova_nomusuari()
-        //comprova_email()
-        //TODO("Fer totes les comprovacions pertinents")
+        comprova_email()
+        comprova_contrassenya()
     }
 
 
