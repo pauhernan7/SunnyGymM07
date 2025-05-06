@@ -47,7 +47,9 @@ class RegistreViewModel: ViewModel() {
     }
     fun comprova_contrassenya(){
         if (_contrassenya.isEmpty()){
-        _errorContrassenya  .value =
+        _errorContrassenya.value ="La contrasenya és obligatoria""
+        }else{
+            _errorContrassenya.value = ""
         }
     }
 
