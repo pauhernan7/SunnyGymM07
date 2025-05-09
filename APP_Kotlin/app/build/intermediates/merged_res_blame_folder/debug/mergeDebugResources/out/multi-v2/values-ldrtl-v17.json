@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sunnygym.app-mergeDebugResources-18:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.sunnygym.app-mergeDebugResources-42:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\99d3df2739c984ab2961cfa6cdefdb3c\\transformed\\material-1.4.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\67552af5e583c47a98a672cfc0e4d0f4\\transformed\\material-1.12.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

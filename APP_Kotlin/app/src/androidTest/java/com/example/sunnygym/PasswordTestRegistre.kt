@@ -23,7 +23,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText(""))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText(""))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("La contrasenya és obligatòria")).check(matches(isDisplayed()))
     }
 
@@ -32,7 +32,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("Password1*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText(""))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Heu de confirmar la contrasenya")).check(matches(isDisplayed()))
     }
 
@@ -41,7 +41,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("NaM3*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("NaN2!"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Les contrasenyes no coincideixen")).check(matches(isDisplayed()))
     }
 
@@ -50,7 +50,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("N4n0*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("N4n0*"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("La contrasenya ha de tenir almenys 6 caràcters")).check(matches(isDisplayed()))
     }
 
@@ -59,7 +59,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("Passwordinfinit12345678*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("Passwordinfinit12345678*"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("La contrasenya és massa llarga")).check(matches(isDisplayed()))
     }
 
@@ -68,7 +68,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("password2*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("password2*"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Ha d’incloure almenys una majúscula")).check(matches(isDisplayed()))
     }
 
@@ -77,7 +77,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("PASSWORD2*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("PASSWORD2*"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Ha d’incloure almenys una minúscula")).check(matches(isDisplayed()))
     }
 
@@ -86,7 +86,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("Password*"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("Password*"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Ha d’incloure almenys un número")).check(matches(isDisplayed()))
     }
 
@@ -95,7 +95,7 @@ class PasswordTestRegistre {
         onView(withId(R.id.registerPasswordInput)).perform(typeText("Password2"))
         onView(withId(R.id.RepeatPasswordInput)).perform(typeText("Password2"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Inclou un símbol")).check(matches(isDisplayed()))
     }
 }

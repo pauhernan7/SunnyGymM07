@@ -11,6 +11,9 @@
       <SelectionState runConfigName="EmailTestRegistre">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="NameTestRegistre">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>

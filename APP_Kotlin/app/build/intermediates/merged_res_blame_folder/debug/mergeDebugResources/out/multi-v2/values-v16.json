@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sunnygym.app-mergeDebugResources-18:/values-v16/values-v16.xml",
+            "outputFile": "com.example.sunnygym.app-mergeDebugResources-42:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\89251c1d0994a11698f7ea6083c82a44\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\2fe33709074f58c564095d4c743381d3\\transformed\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\b50c034f770a5a136896f09c7285e2b5\\transformed\\appcompat-1.7.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -22,14 +12,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
                     }
                 }
             ]

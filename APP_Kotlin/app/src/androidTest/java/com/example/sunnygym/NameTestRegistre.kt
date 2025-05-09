@@ -21,7 +21,7 @@ class NameTestRegistre {
     fun testEmptyUsername() {
         onView(withId(R.id.nameInput)).perform(typeText(" "))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El nom d'usuari és obligatori")).check(matches(isDisplayed()))
     }
 
@@ -29,7 +29,7 @@ class NameTestRegistre {
     fun testUsernameTooShort() {
         onView(withId(R.id.nameInput)).perform(typeText("AB"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El nom ha de tenir almenys 3 caràcters")).check(matches(isDisplayed()))
     }
 
@@ -37,7 +37,7 @@ class NameTestRegistre {
     fun testUsernameTooLong() {
         onView(withId(R.id.nameInput)).perform(typeText("ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El nom d’usuari és massa llarg")).check(matches(isDisplayed()))
     }
 
@@ -45,7 +45,7 @@ class NameTestRegistre {
     fun testUsernameWithSpecialChars() {
         onView(withId(R.id.nameInput)).perform(typeText("N4m#-¨"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Nom d’usuari no vàlid")).check(matches(isDisplayed()))
     }
 
@@ -53,7 +53,7 @@ class NameTestRegistre {
     fun testUsernameWithSpaces() {
         onView(withId(R.id.nameInput)).perform(typeText(" NaM3 "))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El nom no pot tenir espais al principi o final")).check(matches(isDisplayed()))
     }
 
@@ -61,7 +61,7 @@ class NameTestRegistre {
     fun testUsernameOnlyNumbers() {
         onView(withId(R.id.nameInput)).perform(typeText("1234"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El nom d’usuari ha de contenir lletres")).check(matches(isDisplayed()))
     }
 }

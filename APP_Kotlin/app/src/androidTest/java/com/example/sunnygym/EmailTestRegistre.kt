@@ -22,7 +22,7 @@ class EmailTestRegistre {
     fun testEmptyEmail() {
         onView(withId(R.id.registerEmailInput)).perform(typeText(" "))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("El correu electrònic és obligatori")).check(matches(isDisplayed()))
     }
 
@@ -30,7 +30,7 @@ class EmailTestRegistre {
     fun testInvalidEmailFormat() {
         onView(withId(R.id.registerEmailInput)).perform(typeText("Seth.perez"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Format de correu electrònic no vàlid")).check(matches(isDisplayed()))
     }
 
@@ -38,7 +38,7 @@ class EmailTestRegistre {
     fun testEmailAlreadyRegistered() {
         onView(withId(R.id.registerEmailInput)).perform(typeText("Seth.perez@gmail.com"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Aquest correu ja està registrat")).check(matches(isDisplayed()))
     }
 
@@ -46,7 +46,7 @@ class EmailTestRegistre {
     fun testEmailWithInvalidCharacters() {
         onView(withId(R.id.registerEmailInput)).perform(typeText("usuari<>@mail.com"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Caràcter no permès en una direcció de correu electrònic")).check(matches(isDisplayed()))
     }
 
@@ -54,7 +54,7 @@ class EmailTestRegistre {
     fun testEmailWithUppercase() {
         onView(withId(R.id.registerEmailInput)).perform(typeText("FERNANDO.MG@HOTMAIL.COM"))
         closeSoftKeyboard()
-        onView(withId(R.id.registerButton)).perform(click())
+        onView(withId(R.id.registerConfirmButton)).perform(click())
         onView(withText("Caràcter no permès en una adreça de correu electrònic")).check(matches(isDisplayed()))
     }
 }
