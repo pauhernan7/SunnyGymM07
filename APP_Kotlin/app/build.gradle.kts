@@ -39,6 +39,16 @@ android {
 }
 
 dependencies {
+
+    testImplementation(libs.junit)
+    testImplementation(libs.core.testing)
+
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.fragment.testing)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.test.core)
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.androidx.test.rules)
     implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
     implementation("androidx.appcompat:appcompat:1.3.0")
     implementation("com.google.android.material:material:1.4.0")

@@ -4,7 +4,7 @@
             "outputFile": "com.example.sunnygym.app-mergeDebugResources-18:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/sma/.gradle/caches/transforms-4/23c1e7c39dceadfe77162a31fdf571da/transformed/material-1.4.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\valen\\.gradle\\caches\\8.11.1\\transforms\\99d3df2739c984ab2961cfa6cdefdb3c\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

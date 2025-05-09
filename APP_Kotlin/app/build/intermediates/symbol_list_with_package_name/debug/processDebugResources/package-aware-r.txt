@@ -1761,6 +1761,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id RepeatPasswordInput
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1824,7 +1825,6 @@ id activityImage
 id activityName
 id activity_chooser_view_content
 id add
-id ageInput
 id alertTitle
 id aligned
 id all
@@ -1924,6 +1924,7 @@ id editPhone
 id edit_query
 id elastic
 id emailInput
+id emailInputLayout
 id end
 id endToStart
 id enterAlways
@@ -2068,12 +2069,12 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id passwordInput
+id passwordInputLayout
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
-id phoneInput
 id pieChart
 id pin
 id position
@@ -2096,6 +2097,7 @@ id registerEmailInput
 id registerHeader
 id registerPasswordInput
 id registerPrompt
+id repeatPasswordInputLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2222,6 +2224,7 @@ id unlabeled
 id up
 id useLogo
 id userName
+id usernameInputLayout
 id view_clubs
 id view_offset_helper
 id view_tree_lifecycle_owner

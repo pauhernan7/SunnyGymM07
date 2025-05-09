@@ -21,9 +21,9 @@ drawable profile
 drawable qrgym
 drawable tick
 drawable zumba_image
+id RepeatPasswordInput
 id activityImage
 id activityName
-id ageInput
 id backButton
 id backToLoginButton
 id backToProfileButton
@@ -39,6 +39,7 @@ id editName
 id editPassword
 id editPhone
 id emailInput
+id emailInputLayout
 id generateQRButton
 id guidedActivitiesTitle
 id guided_activities
@@ -54,7 +55,7 @@ id menuFragment
 id my_profile
 id nameInput
 id passwordInput
-id phoneInput
+id passwordInputLayout
 id pieChart
 id problemField
 id profileImage
@@ -69,6 +70,7 @@ id registerEmailInput
 id registerHeader
 id registerPasswordInput
 id registerPrompt
+id repeatPasswordInputLayout
 id saveButton
 id sendButton
 id successMessage
@@ -78,6 +80,7 @@ id supportTitle
 id textActividadName
 id tick
 id userName
+id usernameInputLayout
 id view_clubs
 layout activity_guided_activities
 layout activity_item

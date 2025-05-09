@@ -47,16 +47,16 @@
             android:name="com.example.sunnygym.UserProfileActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.sunnygym.RegistrationSuccessActivity"
+            android:name="com.example.sunnygym.Register.RegistrationSuccessActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.sunnygym.RegisterActivity"
+            android:name="com.example.sunnygym.Register.RegisterActivity"
             android:exported="false" />
         <activity
             android:name="com.example.sunnygym.StatsActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.sunnygym.MainActivity"
+            android:name="com.example.sunnygym.Register.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
