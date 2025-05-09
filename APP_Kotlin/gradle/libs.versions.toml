@@ -1,41 +1,41 @@
 [versions]
+agp = "8.9.1"
 junit = "4.13.2"
-coreTesting = "2.2.0"
-fragmentTesting = "1.6.2"
-espressoCore = "3.4.0"
-extJunit = "1.1.3"
-testCore = "1.4.0"
-testRunner = "1.4.0"
-testRules = "1.4.0"
-agp = "8.10.0"
 junitVersion = "1.2.1"
+espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
+activityKtx = "1.9.3"  # Define el alias para activity-ktx
 constraintlayout = "2.2.0"
-retrofit = "2.9.0"
-recyclerview = "1.4.0"
 kotlin = "1.9.23"
 coreKtx = "1.15.0"
+barcodescanning = "17.2.0"
+firebaseFirestoreKtx = "25.1.1"
+cameraCore = "1.4.0-alpha03"
+cameraLifecycle = "1.4.0-alpha03"
+cameraView = "1.4.0-alpha03"
+cameraCamera2 = "1.4.0-alpha03"
+cameraExtensions = "1.4.0-alpha03"
+
 
 [libraries]
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTesting" }
-fragment-testing = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragmentTesting" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "extJunit" }
-androidx-test-core = { group = "androidx.test", name = "core", version.ref = "testCore" }
-androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "testRunner" }
-androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "testRules" }
-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
-retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+barcodescanning = { group = "com.google.mlkit", name = "barcode-scanning", version.ref = "barcodescanning" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraCore" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraLifecycle" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraView" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraCamera2" }
+camera-extensions = { group = "androidx.camera", name = "camera-extensions", version.ref = "cameraExtensions" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

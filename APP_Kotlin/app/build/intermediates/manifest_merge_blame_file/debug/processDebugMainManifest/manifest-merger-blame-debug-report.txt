@@ -15,108 +15,285 @@
 12-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:6:5-78
 12-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:6:22-76
 13
-14    <application
-14-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:8:5-58:19
-15        android:allowBackup="true"
-15-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.6.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\89251c1d0994a11698f7ea6083c82a44\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:10:9-65
-18        android:debuggable="true"
-19        android:extractNativeLibs="false"
-20        android:fullBackupContent="@xml/backup_rules"
-20-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:11:9-54
-21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:12:9-43
-22        android:label="@string/app_name"
-22-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:13:9-41
-23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:14:9-54
-24        android:supportsRtl="true"
-24-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:15:9-35
-25        android:testOnly="true"
-26        android:theme="@style/Theme.MyApplication"
-26-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:16:9-51
-27        android:usesCleartextTraffic="true" >
-27-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:17:9-44
-28        <activity
-28-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:19:9-21:40
-29            android:name="com.example.sunnygym.ReservasActivty"
-29-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:20:13-44
-30            android:exported="false" />
-30-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:21:13-37
-31        <activity
-31-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:22:9-24:40
-32            android:name="com.example.sunnygym.MyProfileActivity"
-32-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:23:13-46
-33            android:exported="false" />
-33-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:24:13-37
+14    <permission
+14-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.sunnygym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.sunnygym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:8:5-58:19
+21        android:allowBackup="true"
+21-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.15.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\935d5fbd6fb3948f4b9005579d842fcc\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MyApplication"
+32-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:16:9-51
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:17:9-44
 34        <activity
-34-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:25:9-27:40
-35            android:name="com.example.sunnygym.SupportActivity"
-35-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:26:13-44
+34-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:19:9-21:40
+35            android:name="com.example.sunnygym.ReservasActivty"
+35-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:20:13-44
 36            android:exported="false" />
-36-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:27:13-37
+36-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:21:13-37
 37        <activity
-37-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:28:9-30:40
-38            android:name="com.example.sunnygym.ViewClubsActivity"
-38-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:29:13-46
+37-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:22:9-24:40
+38            android:name="com.example.sunnygym.MyProfileActivity"
+38-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:23:13-46
 39            android:exported="false" />
-39-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:30:13-37
+39-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:24:13-37
 40        <activity
-40-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:31:9-33:40
-41            android:name="com.example.sunnygym.GuidedActivitiesActivity"
-41-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:32:13-53
+40-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.sunnygym.SupportActivity"
+41-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:26:13-44
 42            android:exported="false" />
-42-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:33:13-37
+42-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:27:13-37
 43        <activity
-43-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:34:9-36:40
-44            android:name="com.example.sunnygym.QRCodeActivity"
-44-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:35:13-43
+43-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:28:9-30:40
+44            android:name="com.example.sunnygym.ViewClubsActivity"
+44-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:29:13-46
 45            android:exported="false" />
-45-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:36:13-37
+45-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:30:13-37
 46        <activity
-46-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:37:9-39:40
-47            android:name="com.example.sunnygym.UserProfileActivity"
-47-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:38:13-48
+46-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:31:9-33:40
+47            android:name="com.example.sunnygym.GuidedActivitiesActivity"
+47-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:32:13-53
 48            android:exported="false" />
-48-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:39:13-37
+48-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:33:13-37
 49        <activity
-49-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:40:9-42:40
-50            android:name="com.example.sunnygym.Register.RegistrationSuccessActivity"
-50-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:41:13-65
+49-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:34:9-36:40
+50            android:name="com.example.sunnygym.QRCodeActivity"
+50-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:35:13-43
 51            android:exported="false" />
-51-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:42:13-37
+51-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:36:13-37
 52        <activity
-52-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:43:9-45:40
-53            android:name="com.example.sunnygym.Register.RegisterActivity"
-53-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:44:13-54
+52-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.sunnygym.UserProfileActivity"
+53-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:38:13-48
 54            android:exported="false" />
-54-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:45:13-37
+54-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:39:13-37
 55        <activity
-55-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:46:9-48:40
-56            android:name="com.example.sunnygym.StatsActivity"
-56-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:47:13-41
+55-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.sunnygym.Register.RegistrationSuccessActivity"
+56-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:41:13-65
 57            android:exported="false" />
-57-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:48:13-37
+57-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:42:13-37
 58        <activity
-58-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:49:9-57:20
-59            android:name="com.example.sunnygym.Register.MainActivity"
-59-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:50:13-50
-60            android:exported="true" >
-60-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:51:13-36
-61            <intent-filter>
-61-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:52:13-56:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:53:17-69
-62-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:53:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:55:17-77
-64-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:55:27-74
-65            </intent-filter>
-66        </activity>
-67    </application>
-68
-69</manifest>
+58-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:43:9-45:40
+59            android:name="com.example.sunnygym.Register.RegisterActivity"
+59-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:44:13-54
+60            android:exported="false" />
+60-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:45:13-37
+61        <activity
+61-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:46:9-48:40
+62            android:name="com.example.sunnygym.StatsActivity"
+62-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:47:13-41
+63            android:exported="false" />
+63-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:48:13-37
+64        <activity
+64-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:49:9-57:20
+65            android:name="com.example.sunnygym.Register.MainActivity"
+65-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:50:13-50
+66            android:exported="true" >
+66-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:51:13-36
+67            <intent-filter>
+67-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:52:13-56:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:53:17-69
+68-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:53:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:55:17-77
+70-->C:\Users\valen\Desktop\itic\2DAM\M7\tests\SunnyGymM07\APP_Kotlin\app\src\main\AndroidManifest.xml:55:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <service
+74-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:24:9-33:19
+75            android:name="androidx.camera.core.impl.MetadataHolderService"
+75-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:25:13-75
+76            android:enabled="false"
+76-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:26:13-36
+77            android:exported="false" >
+77-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:30:13-32:89
+79                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+79-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:31:17-103
+80                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+80-->[androidx.camera:camera-camera2:1.4.0-alpha03] C:\Users\valen\.gradle\caches\8.11.1\transforms\9b11f6ef23274fe80d5608aaddfc8a4f\transformed\camera-camera2-1.4.0-alpha03\AndroidManifest.xml:32:17-86
+81        </service>
+82        <service
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+83            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+83-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+84            android:directBootAware="true"
+84-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:17:13-43
+85            android:exported="false" >
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+86            <meta-data
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+87                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\8653493dad3cec313a854db7e166dd66\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+89            <meta-data
+89-->[com.google.mlkit:vision-common:17.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\6b132e340f872506e7a3c63ab20b4212\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+90                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+90-->[com.google.mlkit:vision-common:17.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\6b132e340f872506e7a3c63ab20b4212\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.mlkit:vision-common:17.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\6b132e340f872506e7a3c63ab20b4212\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+92            <meta-data
+92-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:20:13-22:85
+93                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+93-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:21:17-120
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:22:17-82
+95        </service>
+96
+97        <provider
+97-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:9:9-13:38
+98            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+98-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:10:13-78
+99            android:authorities="com.example.sunnygym.mlkitinitprovider"
+99-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:11:13-69
+100            android:exported="false"
+100-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:12:13-37
+101            android:initOrder="99" />
+101-->[com.google.mlkit:common:18.9.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a72fe420d9c2e34d9ff70705627f79fe\transformed\common-18.9.0\AndroidManifest.xml:13:13-35
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\39673c41258c5b50a5e45519e152a109\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\39673c41258c5b50a5e45519e152a109\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\39673c41258c5b50a5e45519e152a109\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\39673c41258c5b50a5e45519e152a109\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\b96664970e5dd23899579d9e3b3f28cb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\b96664970e5dd23899579d9e3b3f28cb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\b96664970e5dd23899579d9e3b3f28cb\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+111
+112        <provider
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+113            android:name="androidx.startup.InitializationProvider"
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+114            android:authorities="com.example.sunnygym.androidx-startup"
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+115            android:exported="false" >
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+116            <meta-data
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+118                android:value="androidx.startup" />
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\0ee1176518a9970970f9a826d2ad1d4e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\ede50081407ad287b436dd5424e120f0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\ede50081407ad287b436dd5424e120f0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+121                android:value="androidx.startup" />
+121-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\ede50081407ad287b436dd5424e120f0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+124                android:value="androidx.startup" />
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+125        </provider>
+126
+127        <receiver
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+128            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+129            android:directBootAware="false"
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+130            android:enabled="true"
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+131            android:exported="true"
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+132            android:permission="android.permission.DUMP" >
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+134                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+137                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+140                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+143                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\valen\.gradle\caches\8.11.1\transforms\a7a61f62946cbab4dce68a9ed57ea396\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+144            </intent-filter>
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+148            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+148-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+149            android:exported="false" >
+149-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+150            <meta-data
+150-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+151                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+152                android:value="cct" />
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\valen\.gradle\caches\8.11.1\transforms\5238fd41f5141da97b27bce7ab23a8db\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+153        </service>
+154        <service
+154-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+155            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+155-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+156            android:exported="false"
+156-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE" >
+157-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+158        </service>
+159
+160        <receiver
+160-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+161            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+161-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+162            android:exported="false" />
+162-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\valen\.gradle\caches\8.11.1\transforms\543b7c89a20889498153b2a824bcf3c0\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+163    </application>
+164
+165</manifest>
